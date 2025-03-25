@@ -60,7 +60,6 @@ def get_list_methatesis(anagrams_dict):
     anagrams_dict: dicionário com listas de anagramas
     return: retorna lista com par de metáteses
     '''
-
     # pega cada lista de valores do dicionário
     for anagrams in anagrams_dict.values():
         # lista tem que ter comprimento mínimo de 2
